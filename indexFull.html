@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="Bang" id="Bang">
+
+    </div>
+
+    <div class="Tools" id="Tools">
+        <button type="button" id="buttonOpenFullScreen">Во весь экран</button>
+        <input type="number" id="inputSize"> <span>px</span>
+    </div>
+    
+    <script>
+
+        const buttonOpenFullScreen = document.querySelector("#buttonOpenFullScreen")
+        const Bang = document.querySelector("#Bang")
+        const inputSize = document.querySelector("#inputSize")
+
+        inputSize.addEventListener('input', (e) => {
+            Bang.style.height = `${inputSize.value}px`
+            console.log(Bang.style.height);
+        })
+
+
+        buttonOpenFullScreen.addEventListener('click', (event) => {
+
+            if (document.fullscreenElement) {
+                document.exitFullscreen();
+                buttonOpenFullScreen.textContent = 'Во весь экран'
+            } else {
+                document.documentElement.requestFullscreen();
+                buttonOpenFullScreen.textContent = 'Выйти из полноэкранного режима'
+                // buttonOpenFullScreen.requestFullscreen();
+            }
+
+        });
+
+    </script>
+</body>
+</html>

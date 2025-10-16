@@ -1,0 +1,138 @@
+.login {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formLogin {
+    position: relative;
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+    background-color: #000000;
+    border: 1px solid #222222;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.formHead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.formHead h2 {
+    color: #ffffff;
+}
+
+.formInputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inputStyle {
+    background-color: #222222;
+    border: 1px solid #2b2b2b;
+    color: #ffffff;
+    border-radius: 100px;
+    padding: 10px 15px;
+    width: 100%;
+    outline: none;
+}
+
+.inputStylePassword {
+    background-color: #222222;
+    border: 1px solid #2b2b2b;
+    color: #ffffff;
+    border-radius: 100px 0px 0px 100px;
+    padding: 10px 15px;
+    width: 100%;
+    outline: none;
+}
+
+
+.buttonStylePassword {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222222;
+    border: 1px solid #2b2b2b;
+    border-left: none;
+    border-radius: 0px 100px 100px 0px;
+    padding: 0px 10px;
+}
+
+.passwordBlock {
+    display: flex;
+}
+
+
+.formButtons {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    gap: 20px;
+}
+
+.buttonSubmit {
+    background-color: var(--blue);
+    border: none;
+    color: #ffffff;
+    border-radius: 100px;
+    padding: 10px 30px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+.formLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    gap: 15px;
+}
+
+
+
+
+
+.error {
+    color: rgb(255, 137, 137);
+}
+
+.loginByButton {
+    text-align: start;
+    color: #b8b8b8;
+    font-size: 16px;
+    background: none;
+    border: none;
+}
+
+
+.Link {
+    font-size: 16px;
+    color: #b8b8b8;
+    text-decoration: none;
+}
+
+
+@media (max-width: 500px) {
+    .formLogin {
+        width: 100%;
+        height: 100vh;
+        border: none;
+        border-radius: 0px;
+        padding-top: 150px;
+    }
+}
+
+

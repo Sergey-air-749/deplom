@@ -1,0 +1,163 @@
+.home {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    padding: 15px 20px 15px 20px;
+}
+
+.headerTitle {
+    color: #ffffff;
+}
+
+
+
+.burgerMenuBackground {
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000080;
+}
+
+.burgerMenu {
+    width: 450px;
+    padding: 0px 50px;
+    padding-top: 20px;
+    height: 100%;
+    background-color: #0e0e0e;
+}
+
+.navBurgerMenu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.burgerMenuHead {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.burgerMenuTitle {
+    color: #ffffff;
+}
+
+.burgerMenuButtonClose {
+    background: none;
+    border: none;
+}
+
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.userData {
+    display: flex;
+    padding: 5px;
+    gap: 15px;
+}
+
+.userAvatarBlock {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.userAvatarImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.userAvatarImgDesktop {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+
+.userInfoBlock {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.userName {
+    color: #ffffff;
+}
+
+.userEmail {
+    color: #8b8b8b;
+}
+
+
+.buttonLogOut {
+    text-align: start;
+    background: none;
+    border: none;
+    color: #ff7b7b;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.buttonLogOutBurgerMenu {
+    text-align: start;
+    background: none;
+    border: none;
+    color: #ff7b7b;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+
+
+.Link {
+    color: #b8b8b8;
+    text-decoration: none;
+    padding: 5px;
+}
+.LinkBurgerMenu {
+    font-size: 20px;
+    color: #b8b8b8;
+    text-decoration: none;
+    padding: 5px;
+}
+.desktopMenu {
+    display: flex;
+}
+
+.mobileMenu {
+    display: none;
+}
+
+.burgerMenuButton {
+    background: none;
+    border: none;
+}
+
+@media (max-width: 500px) {
+    .desktopMenu {
+        display: none;
+    }
+    
+    .mobileMenu {
+        display: flex;
+    }
+}

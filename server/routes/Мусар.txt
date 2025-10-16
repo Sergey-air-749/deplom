@@ -1,0 +1,9 @@
+        const randomNameId = Math.floor(Math.random() * 9999999999)
+
+        const lastDotIndex = file.originalname.lastIndexOf('.');
+
+        if (lastDotIndex === -1 || lastDotIndex === 0) {
+            return "";
+        }
+
+        console.log(String(randomNameId) + '.' + file.originalname.substring(lastDotIndex + 1));

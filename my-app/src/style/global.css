@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --width: #ffffff;
+    --black: #000000;
+    --dark-gray-input: #1f1f1f; /* #323232; */
+    --blue: #008cff;
+    --light-blue: #96c3ff;
+}

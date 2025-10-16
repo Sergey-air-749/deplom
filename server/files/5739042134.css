@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+}
+
+.Bang {
+    background-color: #939393;
+}
+
+.Tools {
+    padding: 10px;
+}

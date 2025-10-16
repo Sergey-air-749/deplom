@@ -1,0 +1,409 @@
+.getfile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.formGetfile {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.formHead {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.formIcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.formTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--width);
+    padding-bottom: 40px;
+    gap: 10px;
+}
+
+.formTitle h2 {
+    text-align: center;
+}
+
+.formTitle p {
+    text-align: center;
+}
+
+.blockForm {
+    width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hide {
+    display: none !important;
+}
+
+
+.getFilePopUpBackground {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh; 
+    background-color: rgba(0, 0, 0, 0.4);
+}  
+
+.getFilePopUp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 450px;
+    height: 550px;
+    padding: 10px;
+    background-color: rgb(36, 36, 36);;
+    border: 1px solid rgb(31, 31, 31);;
+    border-radius: 20px;
+}
+
+.getFilePopUpHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 20px 10px;
+}
+
+.buttonFilePopUpClose {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+}
+
+.openFilePopUp {
+    background: none;
+    border: none;
+    color: rgb(129, 196, 255);
+    font-size: 16px;
+}
+
+.getFilePopUpTitle {
+    color: #ffffff;
+}
+
+
+
+
+.getFilePopUpItems {
+    display: flex;
+    flex-direction: column;
+
+    padding: 10px;
+    color: var(--width);
+    gap: 20px;
+}
+
+.fileItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-top: 1px solid rgb(125, 125, 125);
+    gap: 10px;
+}
+
+.fileBlock {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-shrink: 5;
+    width: 100%;
+    gap: 10px;
+}
+
+.fileInfo {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-shrink: 5;
+    width: 100%;
+    gap: 10px;
+}
+
+.fileIcon {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.fileName {
+    color: #ffffff;
+    word-break: break-all;
+}
+
+.metaData {
+    font-size: 14px;
+}
+
+
+
+.textItem {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    border-top: 1px solid rgb(125, 125, 125);
+    width: 100%;
+}
+
+.textBlock {
+    padding: 10px 15px;
+    border: 1px solid rgb(125, 125, 125);
+    word-break: break-all;
+    border-radius: 10px;
+}
+
+.textInfo {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 10px 0px;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+.styleButtonDownlode {
+    background-color: var(--blue);
+    border: none;
+    color: var(--width);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 100px;
+    padding: 12px 15px;
+    outline: none;
+}
+
+.styleButtonDownlodeCancel {
+    background-color: #d60000;
+    border: none;
+    color: var(--width);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 100px;
+    padding: 12px 15px;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+.getFilePopUpButtons {
+    display: flex;
+    flex-shrink: 0;
+    padding: 20px 10px 10px 10px;
+    gap: 20px;
+}
+
+.styleButtonCancel {
+    /* background-color: #101010; */
+    background-color: #d60000;
+    border: none;
+    color: var(--width);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 100px;
+    padding: 12px 15px;
+    outline: none;
+    width: 100%;
+}
+
+.styleButtonAccept {
+    background-color: var(--blue);
+    border: none;
+    color: var(--width);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 100px;
+    padding: 12px 15px;
+    outline: none;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.formData {
+    padding-top: 100px;
+    padding-bottom: 140px;
+}
+
+
+.formInputs {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.styleInput {
+    background-color: var(--black);
+    border: 1px solid #2e2e2e;
+    color: var(--width);
+    border-radius: 100px;
+    padding: 12px 15px;
+    outline: none;
+}
+
+.fileInput {
+    display: none;
+}
+
+
+
+
+.notFile {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: var(--width);
+}
+
+
+.filePreview {
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid #2e2e2e;
+    border-radius: 15px;
+    padding: 20px;
+    color: var(--width);
+    gap: 20px;
+}
+
+.filePreviewFiles {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fileItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.userIdBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--width);
+    gap: 20px;
+}
+
+.userId {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.userId h2 {
+    text-align: center;
+}
+
+.userId p {
+    text-align: center;
+}
+
+
+
+
+.navExchangeBlock {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 70px;
+}
+
+.navExchange {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #242424;
+    padding: 5px;
+    border-radius: 50px;
+    /* gap: 20px; */
+}
+
+.LinkExchange {
+    color: #bfbfbf;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+.select {
+    color: #ffffff;
+    background-color: var(--blue);
+}
+
+
+
+@media (max-width: 380px) {
+
+    .getFilePopUp {
+        height: 100%;
+    }
+
+}
